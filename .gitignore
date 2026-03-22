@@ -1,0 +1,18 @@
+# Cache e arquivos compilados do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes Virtuais (caso você use no futuro)
+venv/
+env/
+.env
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar as bases de dados geradas pelo bot!
+# Isso garante que o seu histórico local não vá para o GitHub
+*.csv
+*.xlsx
