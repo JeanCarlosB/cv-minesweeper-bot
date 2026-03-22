@@ -1,4 +1,5 @@
 # 💣 Autonomous Minesweeper Bot
+* 🎥 Assista ao vídeo de demonstração no YouTube: https://youtu.be/JeQvrYIf3p0
 
 > Um agente autônomo em Python capaz de jogar o clássico Campo Minado utilizando **Visão Computacional** e **Inteligência Simbólica**. 
 > O bot lê a tela em tempo real, deduz as posições das minas usando lógica matemática, executa os cliques fisicamente e exporta a telemetria das partidas para análise de dados.
