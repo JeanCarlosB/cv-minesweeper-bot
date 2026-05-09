@@ -14,9 +14,9 @@
 Este projeto implementa um agente autônomo capaz de interpretar e interagir com o clássico Campo Minado sem interceptar a memória interna do sistema. Utilizando **Visão Computacional** para percepção e **Inteligência Simbólica** para raciocínio, a solução demonstra como processos complexos de tomada de decisão podem ser automatizados de forma segura e eficiente.
 
 ## ⚙️ Destaques da Solução (Foco Builder)
-* [cite_start]**Percepção Visual Não-Invasiva:** Utiliza **OpenCV** e Template Matching com calibração de malha espacial para "enxergar" o tabuleiro em tempo real[cite: 68, 101].
-* [cite_start]**Raciocínio Lógico Determinístico:** Substitui tentativas aleatórias por um modelo de tomada de decisão baseado em dedução matemática, analisando matrizes $3\times3$ em torno de cada célula[cite: 69, 102].
-* [cite_start]**Geração de Telemetria Contínua:** Estrutura a exportação de logs em formato **CSV**, gerando bases de dados prontas para análise de performance em ferramentas como Power BI ou dashboards em Python[cite: 70, 103].
+* **Percepção Visual Não-Invasiva:** Utiliza **OpenCV** e Template Matching com calibração de malha espacial para "enxergar" o tabuleiro em tempo real.
+* **Raciocínio Lógico Determinístico:** Substitui tentativas aleatórias por um modelo de tomada de decisão baseado em dedução matemática, analisando matrizes $3\times3$ em torno de cada célula.
+* **Geração de Telemetria Contínua:** Estrutura a exportação de logs em formato **CSV**, gerando bases de dados prontas para análise de performance em ferramentas como Power BI ou dashboards em Python.
 * **Arquitetura Assíncrona:** Implementação de overlay transparente via Tkinter e Threading, permitindo monitoramento de estado em tempo real sem interromper o loop principal de automação.
 
 ## 🧠 Arquitetura do Sistema
